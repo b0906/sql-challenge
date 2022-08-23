@@ -25,8 +25,6 @@ INNER JOIN "Dept_managers"
 INNER JOIN "Employees" 
 		ON "Employees".emp_no = "Dept_managers".emp_no;
 		
---(From here.. i was not able to figure out)
-
 --List the department of each employee with the following information: 
 --employee number, last name, first name, and department name.
 		
@@ -54,7 +52,7 @@ WHERE last_name LIKE 'B%' AND first_name = 'Hercules';
 								 
 --List all employees in the Sales department,including 
 --their employee number, last name, first name, and department name.	
---sub query (dept of sales)
+
 SELECT "Dept_emp".emp_no, 
 		"Employees".last_name, 
 		"Employees".first_name,
