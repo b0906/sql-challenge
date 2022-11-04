@@ -1,9 +1,7 @@
 # Employee Database
 
 In this project, I perform data modeling, data engineering, and data analysis.
-* Design the tables to hold data in the CSVs from six CSV files(employees of the corporation from the 1980s and 1990s).
-* Import the CSVs into a SQL database
-* Answer questions about the data
+
 
 
 ## Data Modeling
